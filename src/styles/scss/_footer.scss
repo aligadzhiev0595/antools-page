@@ -1,0 +1,44 @@
+.footer {
+  padding-top: 100px;
+  .hr {
+    width: 100%;
+    background-color: $footer-hr;
+    height: 2px;
+    margin-bottom: 40px;
+  }
+  .wrapper {
+    padding: 20px;
+    .brand {
+      margin-bottom: 20px;
+      &__link {
+        display: flex;
+        column-gap: 12px;
+        align-items: center;
+        color: $white-color;
+        font-family: $main-text;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 22px;
+        line-height: 33px;
+      }
+    }
+    &__title {
+      font-family: $main-text;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 24px;
+      color: $white-color;
+      margin: 9px 0;
+    }
+    &__subtitle {
+      font-family: $main-text;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 25px;
+      color: $secondary-color;
+      margin-bottom: 7px;
+    }
+  }
+}

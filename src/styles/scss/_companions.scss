@@ -1,0 +1,27 @@
+.companions {
+  padding-top: 70px;
+  &__inner {
+    width: 100%;
+    padding: 55px 80px;
+    background-color: $black-aplha;
+    backdrop-filter: blur(50px);
+    border-radius: 25px;
+    position: relative;
+    overflow: hidden;
+    &::after {
+      content: "";
+      width: 65px;
+      height: 65px;
+      position: absolute;
+      top: 0;
+      left: 0;
+      background-color: $main-alpha;
+      filter: blur(40px);
+    }
+  }
+  &__title {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 45px;
+  }
+}
