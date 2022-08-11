@@ -59,14 +59,14 @@ $media-2xl: 1536px;
         padding: 20px;
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
+        justify-content: space-evenly;
         backdrop-filter: blur(32px);
         z-index: 9;
       }
     }
     .center-list{
       flex-direction: column;
-      margin-top: 300px;
+      margin-top: 150px;
       row-gap: 30px;
     }
     .bottom-list{
@@ -80,6 +80,7 @@ $media-2xl: 1536px;
     }
     &__btn{
       width: 100%;
+      z-index: 10;
     }
     .burger {
       position: fixed;
